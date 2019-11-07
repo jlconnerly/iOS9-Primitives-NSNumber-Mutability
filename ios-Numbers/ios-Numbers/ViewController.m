@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSIPerson.h"
 
 @interface ViewController ()
 
@@ -38,6 +39,17 @@
     printf("numArray: %s", numArray.description.UTF8String);
      double sum = [self calculateSum:@[@3.14, @400, @-45, @1000.1]];
         printf("sum: %f\n", sum);
+    
+    
+    // Mutability and Encapsulation
+    
+    NSMutableString *james = [@"james" mutableCopy];
+    
+    LSIPerson *actor = [[LSIPerson alloc] initWithName:james];
+    NSLog(@"Actor: %@", actor.name);
+    
+    [james setString:[@"David" mutableCopy]];
+    NSLog(@"Actor: %@", actor.name);
     }
 
     - (double)calculateSum:(NSArray *)array {
@@ -48,7 +60,9 @@
             result += number.doubleValue;
         }
         return result;
+        
     }
+
 
 
 @end

@@ -14,6 +14,7 @@
 		322797EF2374A0200049B19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322797EE2374A0200049B19D /* Assets.xcassets */; };
 		322797F22374A0200049B19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322797F02374A0200049B19D /* LaunchScreen.storyboard */; };
 		322797F52374A0200049B19D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322797F42374A0200049B19D /* main.m */; };
+		322797FD2374A7BA0049B19D /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 322797FB2374A7B90049B19D /* LSIPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		322797F12374A0200049B19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322797F32374A0200049B19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322797F42374A0200049B19D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		322797FB2374A7B90049B19D /* LSIPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
+		322797FC2374A7BA0049B19D /* LSIPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 		322797E12374A01D0049B19D /* ios-Numbers */ = {
 			isa = PBXGroup;
 			children = (
+				322797FC2374A7BA0049B19D /* LSIPerson.h */,
+				322797FB2374A7B90049B19D /* LSIPerson.m */,
 				322797E22374A01D0049B19D /* AppDelegate.h */,
 				322797E32374A01D0049B19D /* AppDelegate.m */,
 				322797E52374A01D0049B19D /* SceneDelegate.h */,
@@ -150,6 +155,7 @@
 				322797E42374A01D0049B19D /* AppDelegate.m in Sources */,
 				322797F52374A0200049B19D /* main.m in Sources */,
 				322797E72374A01D0049B19D /* SceneDelegate.m in Sources */,
+				322797FD2374A7BA0049B19D /* LSIPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
